@@ -1,0 +1,76 @@
+body{
+    background-image: url("./output-onlinepngtools.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    font-family: sans-serif;
+}
+.title{
+    font-size: 64px;
+    font-weight:bold;
+    margin-top:100px ;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #00296b;
+   
+}
+.text{ height: 600px;
+    width: 960px;
+    border: 4px solid #00296b;
+    border-radius: 50%;
+    margin-left: 560px;
+    margin-top:30px ;
+background-color:#ffcb69;}
+
+img{
+    margin-left: 900px;
+    margin-top: 60px;
+    height: 120px;
+
+   
+}
+.logo img{
+    width: 150px;
+    height: 180px;
+    position: absolute;
+    left:5%;
+}
+
+.description{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top:60px ;
+    margin-left: 40px;
+    color:black;
+    font-family: cursive;
+     word-spacing:4px ;
+     letter-spacing: 1px;
+}
+.navbar{
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+   
+   
+}
+
+.navbar a{
+color:black;
+font-size:18px ;
+text-decoration:none;
+margin: o 25px;
+transition:-5s;
+ margin-left: 100px;
+}
+.navbar a:hover{
+    color:brown;
+    transform:scale(.9);
+    text-decoration: underline;
+}
+

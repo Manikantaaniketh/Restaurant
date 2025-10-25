@@ -1,0 +1,164 @@
+body{
+     overflow-x: hidden;
+     background: url(https://5.imimg.com/data5/SELLER/Default/2021/10/PW/JL/EI/138190498/restaurant-wallpaper.JPG);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+#rest{
+height: 100px;
+width:2000px; 
+background-color:#023047;
+border:5px double black;
+position: sticky;
+color:red;
+}
+
+#my{
+    background-color: #023047;
+    font-size: 50px;
+    font-family:Copperplate, Papyrus, fantasy; 
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.items{
+   position: relative;
+   /* justify-content: end; */
+    padding-left: 10px; 
+    margin: 20px;
+    text-decoration: none;
+    background-color: #023047;
+}
+.items:hover{
+    text-decoration: underline;
+    color:brown;
+}
+
+
+#folio{
+    margin-left:800px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    background-color: #023047;
+}
+
+/*cards*/
+.col-md-4{
+    display:inline-flex;
+    height: 500px;
+    width:350px;
+    margin-top: 100px;
+    margin-left: 120px;
+
+
+}
+.card-img-top{
+    height: 200px;
+    width:310px;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+.btn  {
+    width:110px;
+    margin:10px;
+    margin-top: 30px;
+}
+
+/* footer*/
+footer{
+    background: #343434;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+.container{
+    
+    width:1200px;
+    height:280px;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+}
+.footer-content{
+    width:33.3%;
+}
+h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer-content p{
+  width:190px;
+  margin:auto;
+  padding:7px;
+
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding:7px;
+    position:relative;
+}
+.list li::before{
+    content:'';
+    position: absolute;
+    transform: relative(-50%,-50%);
+    left:43%;
+    top:100%;
+    width:0;
+    height:2px;
+    background: #f18930;
+    transition-duration:.5s;
+}
+.list li:hover::before{
+    width:60px;
+    
+}
+.social-icons{
+    text-align:center;
+    padding: 0;
+}
+.social-icons li{
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color:orange;
+    
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:#f18930;
+   
+}
+.social-icons i:hover{
+    color: #f18930;
+}
+.bottle-bar{
+    background: #f18930;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.bottom-bar p{
+    color:#343434;
+    margin:0;
+    font-size:16px;
+    padding: 7px;
+}

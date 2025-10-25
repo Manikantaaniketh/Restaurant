@@ -1,0 +1,90 @@
+body{
+    overflow-x: hidden;
+    background: url(https://png.pngtree.com/background/20250115/original/pngtree-food-and-drinks-restaurant-menu-design-with-illustrated-vector-background-picture-image_16078143.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.items{
+    padding-left: 10px; 
+    margin: 20px;
+    text-decoration: none;
+   color: darkmagenta;
+    
+}
+.items:hover{
+    text-decoration: underline;
+    color:brown;
+}
+
+
+#folio{
+    margin-left:690px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    font-size: larger;
+    text-decoration: underline;
+   
+   
+}
+
+
+.Menu{
+height: 1000px;
+width:1000px;
+border: 5px solid black;
+margin-left: 262px;
+margin-top: 20px;
+}
+
+ h1{
+  margin-left: 300px;
+  color:#fb8500;
+  text-decoration: underline;
+  position: relative;
+  top:40px;
+}
+.Menu h1{
+   color:#9a031e;
+}
+
+h2{
+    margin-left: 430px;
+    text-decoration: underline; 
+     position: relative;
+  top:50px;
+}
+
+.veg{
+ position:relative;
+   top:100px;
+    left:150px;
+}
+
+.non{
+    position:relative;
+    bottom:300px;
+    left:600px;
+}
+
+.ice{
+     position:relative;
+      bottom:200px;
+        left:380px ;
+}
+
+h4{
+     position:relative;
+      top:20px;
+}
+ol{
+    position:relative;
+      top:20px; 
+}
+
+/* h3{
+    text-decoration: underline;
+    
+} */
